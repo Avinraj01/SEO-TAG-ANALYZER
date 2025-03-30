@@ -21,7 +21,8 @@ SEO Tag Analyzer is a **powerful web-based SEO analytics tool** designed to help
   - Analyze SEO            - Drizzle ORM          - Perform SEO Audit
   - View Reports           - API Integrations     - Download Reports
   - Optimize Keywords                             - Monitor Site Health
-```---
+```
+---
 
 ## 🚀 Live Demo
 🔗 **Check out the live demo:** [SEO Tag Analyzer](https://eb87a6b2-f634-4543-8e52-db9ffa9d140e-00-3srnlotszsj2u.janeway.replit.dev/)
