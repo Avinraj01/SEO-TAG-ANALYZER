@@ -6,7 +6,7 @@
 
 
 
-# 🎯 SEO Tag Analyzer
+
 
 ## 🌟 Overview
 SEO Tag Analyzer is a **powerful web-based SEO analytics tool** designed to help users monitor and optimize website performance through real-time data insights. The project utilizes modern web technologies to provide a seamless and interactive experience.
