@@ -1,20 +1,7 @@
  [![MasterHead](https://lh3.googleusercontent.com/pw/AP1GczNhFEE4NglgMIFiUILznq6GNYaEvrNOl2KlZiFULQSHU2ug1okum8p8s2xa1PFL55R1-HHrcLe7JlwikrpVvtHwhCSC_c2iZ1bUgdDnGlZOEL16QpaB8GYE8V5cBkiHYGYyVjzbl9YYUuqQF46OMhL5=w640-h288-s-no-gm?authuser=0)](https://Avinraj01.io)
-
-
-
-
-
-
-
-
-
 ## 🌟 Overview
 SEO Tag Analyzer is a **powerful web-based SEO analytics tool** designed to help users monitor and optimize website performance through real-time data insights. The project utilizes modern web technologies to provide a seamless and interactive experience.
-
-
-
 ## 🧠 Mind Map Representation
-
 ```
                  🚀 SEO Tag Analyzer 🚀
                       |
@@ -34,16 +21,10 @@ SEO Tag Analyzer is a **powerful web-based SEO analytics tool** designed to help
   - Analyze SEO            - Drizzle ORM          - Perform SEO Audit
   - View Reports           - API Integrations     - Download Reports
   - Optimize Keywords                             - Monitor Site Health
-```
-
-
-
----
+```---
 
 ## 🚀 Live Demo
 🔗 **Check out the live demo:** [SEO Tag Analyzer](https://eb87a6b2-f634-4543-8e52-db9ffa9d140e-00-3srnlotszsj2u.janeway.replit.dev/)
-
-
   [![MasterHead](https://lh3.googleusercontent.com/pw/AP1GczP73atJjbdz2589ci11t2PkSEHbiQolhpcYzlSGub0VSQk-Bc3WrRNkpu8IyKR6jruANcN-MGdhYfyMPlNO2tgzxoU61bG0a4XTi5Ku61rx_Lpzynuf7Lw-V8Wtl8HviShn6WzRdbyKumKXN2NbElP4=w1122-h793-s-no-gm?authuser=0)](https://Avinraj01.io)
 
 ---
@@ -57,7 +38,6 @@ SEO Tag Analyzer is a **powerful web-based SEO analytics tool** designed to help
 ✅ **Competitor Analysis**: Compare your SEO metrics with competitors.
 
 ---
-
 ## 🏗️ Tech Stack
 🔹 **Frontend**: React, TypeScript, Tailwind CSS  
 🔹 **Backend**: Node.js, Express (if applicable)  
@@ -66,7 +46,6 @@ SEO Tag Analyzer is a **powerful web-based SEO analytics tool** designed to help
 🔹 **API Integrations**: External SEO tools (if any)
 
 ---
-
 ## ⚙️ Installation
 1️⃣ **Clone the repository:**  
    ```bash
@@ -95,7 +74,6 @@ SEO Tag Analyzer is a **powerful web-based SEO analytics tool** designed to help
 📌 Generate and download SEO reports for analysis.
 
 ---
-
 ## 🌍 Deployment
 To deploy the project:
 ```bash
@@ -104,12 +82,10 @@ npm run build
 The build files will be generated in the `dist/` folder for production deployment.
 
 ---
-
 ## 🤝 Contributing
 We welcome contributions! Feel free to open issues and submit pull requests for improvements. 🚀
 
 ---
-
 ## 📜 License
 This project is licensed under the **MIT License**.
 
