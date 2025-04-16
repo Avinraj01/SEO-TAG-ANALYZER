@@ -1,4 +1,5 @@
-[![MasterHead](https://lh3.googleusercontent.com/pw/AP1GczNhFEE4NglgMIFiUILznq6GNYaEvrNOl2KlZiFULQSHU2ug1okum8p8s2xa1PFL55R1-HHrcLe7JlwikrpVvtHwhCSC_c2iZ1bUgdDnGlZOEL16QpaB8GYE8V5cBkiHYGYyVjzbl9YYUuqQF46OMhL5=w640-h288-s-no-gm?authuser=0)](https://Avinraj01.io)
+ [![MasterHead](https://lh3.googleusercontent.com/pw/AP1GczNhFEE4NglgMIFiUILznq6GNYaEvrNOl2KlZiFULQSHU2ug1okum8p8s2xa1PFL55R1-HHrcLe7JlwikrpVvtHwhCSC_c2iZ1bUgdDnGlZOEL16QpaB8GYE8V5cBkiHYGYyVjzbl9YYUuqQF46OMhL5=w640-h288-s-no-gm?authuser=0)](https://Avinraj01.io)
+
 ## 🌟 Overview
 SEO Tag Analyzer is a **powerful web-based SEO analytics tool** designed to help users monitor and optimize website performance through real-time data insights. The project utilizes modern web technologies to provide a seamless and interactive experience.
 ## 🧠 Mind Map Representation
