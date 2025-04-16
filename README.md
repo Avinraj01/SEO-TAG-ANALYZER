@@ -32,20 +32,22 @@ SEO Tag Analyzer is a **powerful web-based SEO analytics tool** designed to help
 ---
 
 ## 🔥 Features
-✅ **SEO Audit**: Get detailed insights into your website's SEO performance.  
-✅ **Keyword Analysis**: Track and optimize keyword rankings for better visibility.  
-✅ **Real-time Reports**: Generate and download customized reports.  
-✅ **Site Health Monitoring**: Identify and fix SEO issues affecting rankings.  
-✅ **Competitor Analysis**: Compare your SEO metrics with competitors.
+
+✅ **SEO Audit** — In-depth analysis of meta tags, headings, content, and structure  
+✅ **Keyword Analysis** — Track performance and relevance of keywords  
+✅ **Real-time Reports** — Interactive data with exportable formats  
+✅ **Site Health Monitoring** — Identify crawl errors and broken links  
+✅ **Competitor Analysis** — Compare key SEO metrics with rival websites  
 
 ---
 ## 🏗️ Tech Stack
-🔹 **Frontend**: React, TypeScript, Tailwind CSS  
-🔹 **Backend**: Node.js, Express (if applicable)  
-🔹 **Database**: Drizzle ORM (if used)  
-🔹 **Build Tool**: Vite  
-🔹 **API Integrations**: External SEO tools (if any)
 
+- ⚛️ **Framework**: Next.js  
+- 🎨 **Styling**: Tailwind CSS  
+- 🧠 **Language**: TypeScript  
+- ⚙️ **Tooling**: Vite  
+- 🗃️ **ORM (Optional)**: Drizzle  
+- 🌐 **Hosting**: Replit
 ---
 ## ⚙️ Installation
 1️⃣ **Clone the repository:**  
