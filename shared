@@ -1,1 +1,55 @@
+import { pgTable, text, serial, integer, boolean, timestamp } from "drizzle-orm/pg-core";
+import { createInsertSchema } from "drizzle-zod";
+import { z } from "zod";
+
+// Define the SEO analysis result schema
+export const seoAnalysis = pgTable("seo_analysis", {
+  id: serial("id").primaryKey(),
+  url: text("url").notNull(),
+  timestamp: timestamp("timestamp").defaultNow().notNull(),
+});
+
+export const insertSeoAnalysisSchema = createInsertSchema(seoAnalysis).pick({
+  url: true,
+});
+
+// Defining schemas for SEO meta tag status
+export const metaTagStatusEnum = z.enum(["good", "warning", "error"]);
+
+// Define a schema for meta tag analysis
+export const metaTagSchema = z.object({
+  value: z.string().nullable(),
+  status: metaTagStatusEnum,
+});
+
+// Define a complete SEO analysis response
+export const seoAnalysisResponseSchema = z.object({
+  url: z.string(),
+  overallScore: z.number().min(0).max(100),
+  criticalIssues: z.number().min(0),
+  warnings: z.number().min(0),
+  passedChecks: z.number().min(0),
+  metaTags: z.object({
+    title: metaTagSchema,
+    description: metaTagSchema,
+    canonical: metaTagSchema,
+    robots: metaTagSchema,
+    charset: metaTagSchema,
+    viewport: metaTagSchema,
+    ogTitle: metaTagSchema,
+    ogDescription: metaTagSchema,
+    ogImage: metaTagSchema,
+    ogType: metaTagSchema,
+    twitterCard: metaTagSchema,
+    twitterTitle: metaTagSchema,
+    twitterDescription: metaTagSchema,
+    twitterImage: metaTagSchema,
+  }),
+});
+
+export type InsertSeoAnalysis = z.infer<typeof insertSeoAnalysisSchema>;
+export type SeoAnalysis = typeof seoAnalysis.$inferSelect;
+export type MetaTagStatus = z.infer<typeof metaTagStatusEnum>;
+export type MetaTag = z.infer<typeof metaTagSchema>;
+export type SeoAnalysisResponse = z.infer<typeof seoAnalysisResponseSchema>;
 
